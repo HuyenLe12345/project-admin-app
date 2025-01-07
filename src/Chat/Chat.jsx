@@ -4,7 +4,7 @@ import ChatRoomsAPI from "../API/ChatRoomsAPI";
 import "./Chat.css";
 
 const io = require("socket.io-client");
-const socket = io("http://localhost:5000");
+const socket = io("https://host-4k0h.onrender.com");
 
 function Chat(props) {
   const [allRoom, setAllRoom] = useState([]);
