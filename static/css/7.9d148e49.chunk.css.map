@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/Chat/Chat.css"],"names":[],"mappings":"AAAA,aACE,wBACF,CAEA,mBACE,uBAAkC,CAClC,8BACF","file":"7.9d148e49.chunk.css","sourcesContent":[".active_user {\n  cursor: pointer !important;\n}\n\n.active_user:hover {\n  color: rgb(92, 92, 253) !important;\n  transition: all 0.5s ease-in-out;\n}\n"]}
