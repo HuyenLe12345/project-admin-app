@@ -6,7 +6,7 @@ import Confirm from "./Component/modal/confirm";
 import { Link } from "react-router-dom";
 import alertify from "alertifyjs";
 const io = require("socket.io-client");
-const socket = io("http://localhost:5000");
+const socket = io("https://host-4k0h.onrender.com");
 
 function Products(props) {
   const [products, setProducts] = useState([]);
