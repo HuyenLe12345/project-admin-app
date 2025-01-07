@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import HistoryAPI from "../API/HistoryAPI";
 
 import io from "socket.io-client";
-const socket = io("http://localhost:5000/admin", { transports: ["websocket"] });
+const socket = io("https://host-4k0h.onrender.com/admin", { transports: ["websocket"] });
 
 function History(props) {
   const [history, setHistory] = useState([]);
